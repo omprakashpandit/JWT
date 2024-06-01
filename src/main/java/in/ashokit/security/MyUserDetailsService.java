@@ -12,7 +12,7 @@ public class MyUserDetailsService implements UserDetailsService{
 	
 	@Override
 	public UserDetails loadUserByUsername(String s) {
-		return new User("admin","$2a$12$LKrFNAHNdv7r2Lx7xeg9HuB47Hq8G1LSKXur8icj.LIE8gBK8ftbO",new ArrayList<>());
+		return new User("om","$2a$12$rxLoGZ/fLby.JdLTppyAl.X4PLzfwgzryor.qH/HpFPU3hVP80HPO",new ArrayList<>());
 	}
 
 }
